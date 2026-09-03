@@ -419,6 +419,10 @@ details p {
   border-block-start: 1px solid var(--line);
 }
 
+.policy-copy a {
+  overflow-wrap: anywhere;
+}
+
 .notice {
   padding: 1rem 1.2rem;
   border-inline-start: 4px solid var(--gold);
@@ -476,7 +480,7 @@ details p {
   .hero,
   .policy-shell,
   .contact-panel {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .hero {
