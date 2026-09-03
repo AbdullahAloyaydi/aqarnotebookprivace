@@ -474,7 +474,8 @@ details p {
   }
 
   .hero,
-  .policy-shell {
+  .policy-shell,
+  .contact-panel {
     grid-template-columns: 1fr;
   }
 
